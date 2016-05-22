@@ -8,7 +8,7 @@ of the License, or (at your option) any later version.
 
 This program is distributed in the hope that it will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
 See the GNU General Public License for more details.
 
@@ -55,12 +55,12 @@ interface from being ambiguous.
 
 typedef struct cvar_s
 {
-	char	*name;
-	char	*string;
-	qboolean archive;		// set to true to cause it to be saved to vars.rc
-	qboolean server;		// notifies players when changed
-	float	value;
-	struct cvar_s *next;
+    char	*name;
+    char	*string;
+    qboolean archive;		// set to true to cause it to be saved to vars.rc
+    qboolean server;		// notifies players when changed
+    float	value;
+    struct cvar_s *next;
 } cvar_t;
 
 void 	Cvar_RegisterVariable (cvar_t *variable);

@@ -8,7 +8,7 @@ of the License, or (at your option) any later version.
 
 This program is distributed in the hope that it will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
 See the GNU General Public License for more details.
 
@@ -23,19 +23,20 @@ Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 #include "r_shared.h"
 
 #define ALIAS_BASE_SIZE_RATIO		(1.0 / 11.0)
-					// normalizing factor so player model works out to about
-					//  1 pixel per triangle
+// normalizing factor so player model works out to about
+//  1 pixel per triangle
 
 #define BMODEL_FULLY_CLIPPED	0x10 // value returned by R_BmodelCheckBBox ()
-									 //  if bbox is trivially rejected
+//  if bbox is trivially rejected
 
 //===========================================================================
 // viewmodel lighting
 
-typedef struct {
-	int			ambientlight;
-	int			shadelight;
-	float		*plightvec;
+typedef struct
+{
+    int			ambientlight;
+    int			shadelight;
+    float		*plightvec;
 } alight_t;
 
 //===========================================================================
@@ -43,12 +44,13 @@ typedef struct {
 
 typedef struct bedge_s
 {
-	mvertex_t		*v[2];
-	struct bedge_s	*pnext;
+    mvertex_t		*v[2];
+    struct bedge_s	*pnext;
 } bedge_t;
 
-typedef struct {
-	float	fv[3];		// viewspace x, y
+typedef struct
+{
+    float	fv[3];		// viewspace x, y
 } auxvert_t;
 
 //===========================================================================
@@ -86,12 +88,12 @@ extern cvar_t	r_numedges;
 // !!! if this is changed, it must be changed in asm_draw.h too !!!
 typedef struct clipplane_s
 {
-	vec3_t		normal;
-	float		dist;
-	struct		clipplane_s	*next;
-	byte		leftedge;
-	byte		rightedge;
-	byte		reserved[2];
+    vec3_t		normal;
+    float		dist;
+    struct		clipplane_s	*next;
+    byte		leftedge;
+    byte		rightedge;
+    byte		reserved[2];
 } clipplane_t;
 
 extern	clipplane_t	view_clipplanes[4];
@@ -193,7 +195,7 @@ extern fixed16_t	sadjust, tadjust;
 extern fixed16_t	bbextents, bbextentt;
 
 #define MAXBVERTINDEXES	1000	// new clipped vertices when clipping bmodels
-								//  to the world BSP
+//  to the world BSP
 extern mvertex_t	*r_ptverts, *r_ptvertsmax;
 
 extern vec3_t			sbaseaxis[3], tbaseaxis[3];
@@ -204,9 +206,10 @@ extern int		reinit_surfcache;
 extern int		r_currentkey;
 extern int		r_currentbkey;
 
-typedef struct btofpoly_s {
-	int			clipflags;
-	msurface_t	*psurf;
+typedef struct btofpoly_s
+{
+    int			clipflags;
+    msurface_t	*psurf;
 } btofpoly_t;
 
 #define MAX_BTOFPOLYS	5000	// FIXME: tune this

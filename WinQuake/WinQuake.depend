@@ -1,0 +1,294 @@
+# depslib dependency file v1.0
+1463608583 source:c:\users\owner\documents\quake\winquake\cd_win.c
+	<windows.h>
+	"quakedef.h"
+
+1463608583 c:\users\owner\documents\quake\winquake\quakedef.h
+	<math.h>
+	<string.h>
+	<stdarg.h>
+	<stdio.h>
+	<stdlib.h>
+	<setjmp.h>
+	"common.h"
+	"bspfile.h"
+	"vid.h"
+	"sys.h"
+	"zone.h"
+	"mathlib.h"
+	"wad.h"
+	"draw.h"
+	"cvar.h"
+	"screen.h"
+	"net.h"
+	"protocol.h"
+	"cmd.h"
+	"sbar.h"
+	"sound.h"
+	"render.h"
+	"client.h"
+	"progs.h"
+	"server.h"
+	"gl_model.h"
+	"model.h"
+	"d_iface.h"
+	"input.h"
+	"world.h"
+	"keys.h"
+	"console.h"
+	"view.h"
+	"menu.h"
+	"crc.h"
+	"cdaudio.h"
+	"glquake.h"
+
+1463608583 c:\users\owner\documents\quake\winquake\common.h
+
+1463608583 c:\users\owner\documents\quake\winquake\bspfile.h
+
+1463608583 c:\users\owner\documents\quake\winquake\vid.h
+
+1463608583 c:\users\owner\documents\quake\winquake\sys.h
+
+1463608583 c:\users\owner\documents\quake\winquake\zone.h
+
+1463608583 c:\users\owner\documents\quake\winquake\mathlib.h
+
+1463608583 c:\users\owner\documents\quake\winquake\wad.h
+
+1463608583 c:\users\owner\documents\quake\winquake\draw.h
+
+1463608583 c:\users\owner\documents\quake\winquake\cvar.h
+
+1463608583 c:\users\owner\documents\quake\winquake\screen.h
+
+1463608583 c:\users\owner\documents\quake\winquake\net.h
+
+1463608583 c:\users\owner\documents\quake\winquake\protocol.h
+
+1463608583 c:\users\owner\documents\quake\winquake\cmd.h
+
+1463608583 c:\users\owner\documents\quake\winquake\sbar.h
+
+1463608583 c:\users\owner\documents\quake\winquake\sound.h
+
+1463608583 c:\users\owner\documents\quake\winquake\render.h
+
+1463608583 c:\users\owner\documents\quake\winquake\client.h
+
+1463608583 c:\users\owner\documents\quake\winquake\progs.h
+	"pr_comp.h"
+	"progdefs.h"
+
+1463608583 c:\users\owner\documents\quake\winquake\pr_comp.h
+
+1463608583 c:\users\owner\documents\quake\winquake\progdefs.h
+	"progdefs.q2"
+	"progdefs.q1"
+
+1463608583 c:\users\owner\documents\quake\winquake\progdefs.q2
+
+1463608583 c:\users\owner\documents\quake\winquake\progdefs.q1
+
+1463608583 c:\users\owner\documents\quake\winquake\server.h
+
+1463608583 c:\users\owner\documents\quake\winquake\gl_model.h
+	"modelgen.h"
+	"spritegn.h"
+
+1463608583 c:\users\owner\documents\quake\winquake\modelgen.h
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+	<string.h>
+	"cmdlib.h"
+	"scriplib.h"
+	"trilib.h"
+	"lbmlib.h"
+	"mathlib.h"
+
+1463608583 c:\users\owner\documents\quake\winquake\spritegn.h
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+	<string.h>
+	"cmdlib.h"
+	"scriplib.h"
+	"dictlib.h"
+	"trilib.h"
+	"lbmlib.h"
+	"mathlib.h"
+
+1463608583 c:\users\owner\documents\quake\winquake\model.h
+	"modelgen.h"
+	"spritegn.h"
+
+1463608583 c:\users\owner\documents\quake\winquake\d_iface.h
+
+1463608583 c:\users\owner\documents\quake\winquake\input.h
+
+1463608583 c:\users\owner\documents\quake\winquake\world.h
+
+1463608583 c:\users\owner\documents\quake\winquake\keys.h
+
+1463608583 c:\users\owner\documents\quake\winquake\console.h
+
+1463608583 c:\users\owner\documents\quake\winquake\view.h
+
+1463608583 c:\users\owner\documents\quake\winquake\menu.h
+
+1463608583 c:\users\owner\documents\quake\winquake\crc.h
+
+1463608583 c:\users\owner\documents\quake\winquake\cdaudio.h
+
+1463608583 c:\users\owner\documents\quake\winquake\glquake.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1463608583 source:c:\users\owner\documents\quake\winquake\chase.c
+	"quakedef.h"
+
+1463608583 source:c:\users\owner\documents\quake\winquake\cl_demo.c
+	"quakedef.h"
+
+1463608583 source:c:\users\owner\documents\quake\winquake\cl_input.c
+	"quakedef.h"
+
+1463608583 source:c:\users\owner\documents\quake\winquake\cl_main.c
+	"quakedef.h"
+
+1463608583 source:c:\users\owner\documents\quake\winquake\cl_parse.c
+	"quakedef.h"
+
+1463608583 source:c:\users\owner\documents\quake\winquake\cl_tent.c
+	"quakedef.h"
+
+1463608583 source:c:\users\owner\documents\quake\winquake\cmd.c
+	"quakedef.h"
+
+1463608583 source:c:\users\owner\documents\quake\winquake\common.c
+	"quakedef.h"
+
+1463608583 source:c:\users\owner\documents\quake\winquake\conproc.c
+	<windows.h>
+	"conproc.h"
+	"quakedef.h"
+
+1463608583 c:\users\owner\documents\quake\winquake\conproc.h
+
+1463608583 source:c:\users\owner\documents\quake\winquake\console.c
+	<libc.h>
+	<unistd.h>
+	<fcntl.h>
+	"quakedef.h"
+
+1463608583 source:c:\users\owner\documents\quake\winquake\crc.c
+	"quakedef.h"
+	"crc.h"
+
+1463608583 source:c:\users\owner\documents\quake\winquake\cvar.c
+	"quakedef.h"
+
+1463608583 source:c:\users\owner\documents\quake\winquake\gl_draw.c
+	"quakedef.h"
+
+1463608583 source:c:\users\owner\documents\quake\winquake\gl_mesh.c
+	"quakedef.h"
+
+1463608583 source:c:\users\owner\documents\quake\winquake\gl_model.c
+	"quakedef.h"
+
+1463608583 source:c:\users\owner\documents\quake\winquake\gl_refrag.c
+	"quakedef.h"
+
+1463608583 source:c:\users\owner\documents\quake\winquake\gl_rlight.c
+	"quakedef.h"
+
+1463608583 source:c:\users\owner\documents\quake\winquake\gl_rmain.c
+	"quakedef.h"
+	"anorms.h"
+	"anorm_dots.h"
+
+1463608583 c:\users\owner\documents\quake\winquake\anorms.h
+
+1463608583 c:\users\owner\documents\quake\winquake\anorm_dots.h
+
+1463608583 source:c:\users\owner\documents\quake\winquake\gl_rmisc.c
+	"quakedef.h"
+
+1463608583 source:c:\users\owner\documents\quake\winquake\gl_rsurf.c
+	"quakedef.h"
+
+1463608583 source:c:\users\owner\documents\quake\winquake\gl_screen.c
+	"quakedef.h"
+
+1463608583 source:c:\users\owner\documents\quake\winquake\gl_test.c
+	"quakedef.h"
+
+1463608583 source:c:\users\owner\documents\quake\winquake\gl_vidnt.c
+	"quakedef.h"
+	"winquake.h"
+	"resource.h"
+	<commctrl.h>
+
+1463608583 c:\users\owner\documents\quake\winquake\winquake.h
+	<windows.h>
+	<ddraw.h>
+	<dsound.h>
+	<mgraph.h>
+
+1463608583 c:\users\owner\documents\quake\winquake\dxsdk\sdk\inc\ddraw.h
+	<objbase.h>
+
+1463608583 c:\users\owner\documents\quake\winquake\dxsdk\sdk\inc\dsound.h
+	<objbase.h>
+
+1463608583 c:\users\owner\documents\quake\winquake\scitech\include\mgraph.h
+	<stdio.h>
+	"debug.h"
+	"mglrect.hpp"
+	"mglwin.h"
+	"mgldos.h"
+
+1463608583 c:\users\owner\documents\quake\winquake\scitech\include\debug.h
+	<windows.h>
+
+1463608583 c:\users\owner\documents\quake\winquake\scitech\include\mglwin.h
+
+1463608583 c:\users\owner\documents\quake\winquake\scitech\include\mgldos.h
+
+1463608583 c:\users\owner\documents\quake\winquake\resource.h
+
+1463608583 source:c:\users\owner\documents\quake\winquake\gl_warp.c
+	"quakedef.h"
+	"gl_warp_sin.h"
+
+1463608583 c:\users\owner\documents\quake\winquake\gl_warp_sin.h
+
+1463608583 source:c:\users\owner\documents\quake\winquake\host.c
+	"quakedef.h"
+	"r_local.h"
+
+1463608583 c:\users\owner\documents\quake\winquake\r_local.h
+	"r_shared.h"
+
+1463608583 c:\users\owner\documents\quake\winquake\r_shared.h
+
+1463608583 source:c:\users\owner\documents\quake\winquake\host_cmd.c
+	"quakedef.h"
+
+1463608583 source:c:\users\owner\documents\quake\winquake\in_win.c
+	<dinput.h>
+	"quakedef.h"
+	"winquake.h"
+	"dosisms.h"
+
+1463608583 c:\users\owner\documents\quake\winquake\dxsdk\sdk\inc\dinput.h
+	<objbase.h>
+
+1463608583 c:\users\owner\documents\quake\winquake\dosisms.h
+
+1463608583 source:c:\users\owner\documents\quake\winquake\keys.c
+	"quakedef.h"
+

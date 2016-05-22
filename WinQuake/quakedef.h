@@ -8,7 +8,7 @@ of the License, or (at your option) any later version.
 
 This program is distributed in the hope that it will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
 See the GNU General Public License for more details.
 
@@ -218,13 +218,13 @@ void	VID_UnlockBuffer (void);
 
 typedef struct
 {
-	vec3_t	origin;
-	vec3_t	angles;
-	int		modelindex;
-	int		frame;
-	int		colormap;
-	int		skin;
-	int		effects;
+    vec3_t	origin;
+    vec3_t	angles;
+    int		modelindex;
+    int		frame;
+    int		colormap;
+    int		skin;
+    int		effects;
 } entity_state_t;
 
 
@@ -270,12 +270,12 @@ typedef struct
 
 typedef struct
 {
-	char	*basedir;
-	char	*cachedir;		// for development over ISDN lines
-	int		argc;
-	char	**argv;
-	void	*membase;
-	int		memsize;
+    char	*basedir;
+    char	*cachedir;		// for development over ISDN lines
+    int		argc;
+    char	**argv;
+    void	*membase;
+    int		memsize;
 } quakeparms_t;
 
 
@@ -301,7 +301,7 @@ extern	byte		*host_basepal;
 extern	byte		*host_colormap;
 extern	int			host_framecount;	// incremented every frame, never reset
 extern	double		realtime;			// not bounded in any way, changed at
-										// start of every frame, never reset
+// start of every frame, never reset
 
 void Host_ClearMemory (void);
 void Host_ServerFrame (void);
@@ -316,10 +316,10 @@ void Host_ClientCommands (char *fmt, ...);
 void Host_ShutdownServer (qboolean crash);
 
 extern qboolean		msg_suppress_1;		// suppresses resolution and cache size console output
-										//  an fullscreen DIB focus gain/loss
+//  an fullscreen DIB focus gain/loss
 extern int			current_skill;		// skill level for currently loaded level (in case
-										//  the user changes the cvar while the level is
-										//  running, this reflects the level actually in use)
+//  the user changes the cvar while the level is
+//  running, this reflects the level actually in use)
 
 extern qboolean		isDedicated;
 

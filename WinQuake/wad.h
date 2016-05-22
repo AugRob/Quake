@@ -8,7 +8,7 @@ of the License, or (at your option) any later version.
 
 This program is distributed in the hope that it will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
 See the GNU General Public License for more details.
 
@@ -38,28 +38,28 @@ Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 
 typedef struct
 {
-	int			width, height;
-	byte		data[4];			// variably sized
+    int			width, height;
+    byte		data[4];			// variably sized
 } qpic_t;
 
 
 
 typedef struct
 {
-	char		identification[4];		// should be WAD2 or 2DAW
-	int			numlumps;
-	int			infotableofs;
+    char		identification[4];		// should be WAD2 or 2DAW
+    int			numlumps;
+    int			infotableofs;
 } wadinfo_t;
 
 typedef struct
 {
-	int			filepos;
-	int			disksize;
-	int			size;					// uncompressed
-	char		type;
-	char		compression;
-	char		pad1, pad2;
-	char		name[16];				// must be null terminated
+    int			filepos;
+    int			disksize;
+    int			size;					// uncompressed
+    char		type;
+    char		compression;
+    char		pad1, pad2;
+    char		name[16];				// must be null terminated
 } lumpinfo_t;
 
 extern	int			wad_numlumps;
